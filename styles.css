@@ -1,0 +1,163 @@
+/* styles.css */
+
+/* Reseta alguns estilos padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define o fundo preto para toda a página */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000;
+    line-height: 1.6;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 2px solid #f1c40f; /* Amarelo */
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 40px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #f1c40f; /* Amarelo */
+}
+
+header nav {
+    flex-grow: 1;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f1c40f; /* Amarelo */
+}
+
+/* Estiliza a seção hero */
+#hero {
+    background-color: #111; /* Preto quase preto */
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    color: #f1c40f; /* Amarelo */
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* Estiliza a seção sobre nós */
+#about {
+    padding: 40px 20px;
+    background-color: #222; /* Preto com mais intensidade */
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: #f1c40f; /* Amarelo */
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 900px;
+    margin: 10px auto;
+    text-align:left;
+}
+
+/* Estiliza a seção serviços */
+#services {
+    padding: 40px 20px;
+    background-color: #111; /* Preto quase preto */
+}
+
+#services h2 {
+    font-size: 2rem;
+    color: #f1c40f; /* Amarelo */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service {
+    background-color: #333; /* Preto mais claro */
+    border: 1px solid #f1c40f; /* Amarelo */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.service h3 {
+    color: #f1c40f; /* Amarelo */
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #fff;
+}
+
+/* Estiliza o rodapé */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #f1c40f; /* Amarelo */
+}
+
+footer .contact-link {
+    color: #f1c40f; /* Amarelo */
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+footer .contact-link:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
